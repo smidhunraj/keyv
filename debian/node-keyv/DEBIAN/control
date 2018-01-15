@@ -1,0 +1,16 @@
+Package: node-keyv
+Version: 3.0.0-1
+Architecture: all
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: nodejs, node-json-buffer (>= 3.0.0)
+Section: javascript
+Priority: optional
+Homepage: https://github.com/lukechilds/keyv
+Description: Simple key-value storage with support for multiple backends
+ .
+ Keyv provides a consistent interface for key-value storage across multiple
+ backends via storage adapters. It supports TTL based expiry, making it
+ suitable as a cache or a persistent key-value store.
+ .
+ Node.js is an event-based server-side JavaScript engine.
